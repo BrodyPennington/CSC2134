@@ -22,7 +22,7 @@ int main() {
     int AreaR2 = LengthR2 * WidthR2;
 
     cout << "Area of your first rectangle with length of " << LengthR1 << " and width " << WidthR1 << " is: " << AreaR1 << endl;
-    cout << "Area of your first rectangle with length of " << LengthR2 << " and width " << WidthR2 << " is: " << AreaR2 << endl;
+    cout << "Area of your second rectangle with length of " << LengthR2 << " and width " << WidthR2 << " is: " << AreaR2 << endl;
         if (AreaR1 > AreaR2) {
             cout << "Rectangle one is larger than rectangle two with an area of " << AreaR1 << " vs " << AreaR2 << endl;
         } else if (AreaR2 > AreaR1) {
