@@ -11,6 +11,7 @@ int WidthR2 = 0;
 int AreaR2 = 0;
 
 int main() {
+
     cout << "What is the length and width of your first rectangle?\n";
     cin >> LengthR1;
     cin >> WidthR1;
@@ -31,6 +32,7 @@ int main() {
             cout << "The rectangles are the same with an area of: " << AreaR1 << " and " << AreaR2 << endl;
         }
 
-
+    system ("pause");
     return 0;
+    
 }
