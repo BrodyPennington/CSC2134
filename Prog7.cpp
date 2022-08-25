@@ -1,3 +1,5 @@
+// I have previously written a guessing game like this about a year ago at https://github.com/Yeahimbrody/guessing-game
+
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
