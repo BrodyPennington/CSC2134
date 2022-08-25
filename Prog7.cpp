@@ -1,10 +1,9 @@
 // I have previously written a guessing game like this about a year ago at https://github.com/Yeahimbrody/guessing-game
 
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <windows.h>
+#include <cstdio>
+#include <cstdlib>
+#include <ctime>
 
 
 int main() {
@@ -32,7 +31,7 @@ srand (time(NULL));
         std::cin >> a;
 
     } else if (x != 0) {
-        std::cout << "I guess you werent feeling it, have a nice day!";
+        std::cout << "I guess you weren't feeling it, have a nice day!";
         system ("pause");
         return 0;
     }
