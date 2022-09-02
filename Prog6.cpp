@@ -12,8 +12,7 @@ int main() {
     
     std::cout << std::setprecision(2) << std::fixed;
 
-    for (i = 1 ; i <= 6 ; i++)
-    {
+    for (i = 1 ; i <= 6 ; i++) {
         
        total = total + (total * y) ;
    
