@@ -6,11 +6,8 @@ int NumB = 0;
 using namespace std;
 
 int main() {
-    cout << "What is your first number?\n";
-    cin >> NumA;
-
-    cout << "What is your second number?\n";
-    cin >> NumB;
+    cout << "What are your numbers?" << endl;
+    cin >> NumA >> NumB;
 
         if (NumA > NumB) {
             cout << "Higher number:" << NumA << endl;
