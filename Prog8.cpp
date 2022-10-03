@@ -1,5 +1,5 @@
 #include "iostream"
-#include "cstdio"
+#include "stdio.h"
 #include <fstream>
 
 int main() {
@@ -12,7 +12,8 @@ int main() {
 
 
     std::cout << "Now write a brief sentence that describes yourself!" << std::endl;
-    std::cin >> sentence;
+    std::cin.ignore();
+    std::getline (std::cin, sentence);
 
     std::ofstream MyFile(first + "_" + last + ".html");
 
